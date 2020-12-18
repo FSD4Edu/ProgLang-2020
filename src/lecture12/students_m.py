@@ -21,4 +21,4 @@ class CalcScore:
         for st in self.students:
             total += st.getScore()
         ave = total / len(self.students)
-        return av
+        return ave
